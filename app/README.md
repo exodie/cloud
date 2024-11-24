@@ -1,7 +1,21 @@
-# Tauri + React + Typescript
+# Cloud
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+[Repository](https://github.com/exodie/cloud)
+<br />
+[Tauri docs](https://v2.tauri.app)
 
-## Recommended IDE Setup
+### Launch
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+#### Step 1
+```bash
+yarn
+```
+
+#### Step 2
+Check Tauri documentation what nedeed install to launch with rust application
+
+#### Step 3
+After all success installed - run:
+```bash
+yarn tauri dev
+```
