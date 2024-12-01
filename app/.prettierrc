@@ -5,5 +5,22 @@
   "semi": false,
   "singleQuote": true,
   "trailingComma": "all",
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^react",
+    "^react-dom",
+    "^antd",
+    "^@/pages/*",
+    "^@/components/*",
+    "^@/api/*",
+    "^@/dev/*",
+    "^@/store/*",
+    "^@/types/*",
+    "^@/constants/*",
+    "^../(.*)$",
+    "^./(.*)$",
+    "^<THIRD_PARTY_MODULES>"
+  ],
+  "importOrderSeparation": true
 }

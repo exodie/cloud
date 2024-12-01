@@ -3,6 +3,15 @@
 All notable changes to the project are listed here.
 For more information visit: https://github.com/exodie/cloud
 
+### v0.1.3
+
+**feat: Initial ant-design UI to root**
+
+= Updated .tsx files, and added index.css file as root
+- Installed more prettier config, running format:fix
+- Added types/ folders with .gitkeep
+- Current color-theme now: Dark
+
 ### v0.1.2
 
 **chore: Updated README.md on application**
